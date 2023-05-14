@@ -27,8 +27,10 @@ body{
   position: relative;
   left: 40%;
   transform: translateX(-40%);
-  width: 400px;
-  height: 520px;
+/*  width: 400px;*/
+  width: 45rem;
+/*  height: 520px;*/
+  height: 91%;
   text-align: center;
   color: brown;
   background-color: transparent;
@@ -40,8 +42,10 @@ body{
 img{
   margin-top: 5px;
   margin-left: 3.5%;
-  width: 350px;
-  height: 440px;
+/*  width: 350px;*/
+  width: 41rem;
+/*  height: 440px;*/
+  height: 100%;
   background-color: transparent;
   border: 2px solid whitesmoke;
   border-radius: 30px;
@@ -50,7 +54,7 @@ img{
 .post{
   display: flex;
   justify-content: center;
-  margin-top: 5px;
+  margin-top: .5%;
   padding: 5px;
   position: relative;
   color: whitesmoke;
@@ -59,8 +63,8 @@ img{
   left: 50%;
   transform: translateX(-50%);
   border-radius: 50px;
-  width: 45px;
-  height: 10px;
+  width: 9%;
+  height: 5%;
   align-items: center;
   border: 2px solid whitesmoke;
   background-color: transparent;
@@ -81,22 +85,43 @@ img{
 .times{
   position: absolute;
   left: 40%;
-  top: 90%;
-  justify-content: center;
+  top: 91%;
+/*  justify-content: space-between;*/
 /*  top: 200px;*/
   display: flex;
   align-items: center;
-  color: whitesmoke;
+  
   transform: translateX(-40%);
   background-color: transparent;
-  width: 400px;
-  margin-bottom: 200px;
+/*  width: 400px;*/
+  width: 45rem;
+/*  margin-bottom: 200px;*/
   height: 30px;
   border: 2px solid whitesmoke;
   border-radius: 20px;
 }
 
+.form-label{
+  color: whitesmoke;
+  font-size: 40px;
+  margin-left: 2%;
+/*  flex-grow: 1;*/
+}
+
+.form-h1{
+  color: whitesmoke;
+    margin-left: 2%;
+  flex-grow: 1;
+}
+
+.form-input{
+    margin-left: 2%;
+  flex-grow: 1;
+}
+
 .set{
+    margin-left: 2%;
+  flex-grow: 1;
   opacity: 0.8;
   color: whitesmoke;
   font-size: 15px;
@@ -116,3 +141,16 @@ img{
   width: 80px;
   padding: 6px;
 }
+
+
+/*@media screen and (max-width: 600px ) {
+  .box{
+  width: 80%;
+    height: 90%;
+  }
+
+  img{
+    width: 350px;
+    height: 90%;
+  }
+}*/
