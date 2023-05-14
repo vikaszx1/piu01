@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Image Uploader</title>
+  <link rel="stylesheet" type="text/css" href="img.css">
+</head>
+<body onload="let t; processData(t);" >
+  <div class="box">
+    <h1 class="title" id="result">Upload File</h1>
+    <img src='' id='profile-pic'/>
+    <label for="input-file" class="post">Post</label>
+    <input type='file' accept='image/jpg, image/png, image/jpeg, video/mp4' id='input-file'/>
+  </div>
+
+  <form class="times">
+  <label for="input">Time:</label>
+  <h1 id="time"></h1>
+  <input type="text" id="input" placeholder="time in milliseconds" />
+  <input type="button" value="submit" onclick = "processData(this.form)" class="set">
+</form>
+<script src="img.js"></script>
+</body>
+</html>

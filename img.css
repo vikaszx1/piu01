@@ -1,0 +1,118 @@
+*{
+  padding: 8px;
+}
+
+body{
+  display: flex;
+  justify-content: space-between;
+  background-image: url('img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title{
+  border: 1px solid cyan;
+  border-radius: 25px;
+  padding: 5px;
+  margin-bottom: 2px;
+  margin: 0;
+  color: whitesmoke;
+  background-color: transparent;
+}
+
+.box{
+  margin-top: -22px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 40%;
+  transform: translateX(-40%);
+  width: 400px;
+  height: 520px;
+  text-align: center;
+  color: brown;
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  border-radius: 25px;
+  background-size: cover;
+}
+
+img{
+  margin-top: 5px;
+  margin-left: 3.5%;
+  width: 350px;
+  height: 440px;
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  border-radius: 30px;
+}
+
+.post{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 5px;
+  position: relative;
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50px;
+  width: 45px;
+  height: 10px;
+  align-items: center;
+  border: 2px solid whitesmoke;
+  background-color: transparent;
+}
+
+.post:hover{
+  width: 40%;
+  background-color: transparent;
+  color: whitesmoke;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#input-file{
+  display: none;
+}
+
+.times{
+  position: absolute;
+  left: 40%;
+  top: 90%;
+  justify-content: center;
+/*  top: 200px;*/
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+  transform: translateX(-40%);
+  background-color: transparent;
+  width: 400px;
+  margin-bottom: 200px;
+  height: 30px;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+}
+
+.set{
+  opacity: 0.8;
+  color: whitesmoke;
+  font-size: 15px;
+  background-color: #000080;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#time{
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 2px solid whitesmoke;
+  height: 20px;
+  width: 80px;
+  padding: 6px;
+}
